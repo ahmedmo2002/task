@@ -11,8 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name: 'testing githup action'
-        run: pwd
-
-      - name: 'testing printing'
-        run: echo ahmed
+      - name: 'printing all contents'
+        run: ls
