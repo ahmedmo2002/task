@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    run-on: unbuntu-latest
+    run-on: ubuntu-latest
 
     steps:
       - name: 'Testing Github action'
